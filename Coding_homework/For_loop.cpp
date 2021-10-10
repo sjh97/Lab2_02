@@ -28,7 +28,7 @@ int main()
 	for(int i=0;i<arrsize;i++){
 		int cnt=0;
 		for(int j=0;j<arrsize;j++){
-			if(arr[i]==arr[j])
+			if(arr[i]>arr[j])
 				cnt++;
 		}
 		output[i] = cnt;
